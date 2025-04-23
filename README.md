@@ -27,4 +27,16 @@ When you run the IP Broker Service, it will go through two phases:
 1.	Phase 1: Initial Distribution: This phase demonstrates the initial distribution of requests among the configured providers. It runs a set of requests to retrieve location information for a specific IP address. The program will display the provider selection and any encountered errors.
 2.	Phase 2: Rate Limit & Error Recovery: This phase demonstrates how the system recovers and rebalances the requests when providers reach their rate limits or encounter errors. It runs additional requests and displays the provider statistics, including the number of requests, successful requests, error rate, and average response time.
 
+# Noteworthy Points
+1. Multiple providers management
+   - Handles multiple geolocation providers with different characteristics (Like different error rates)
+   - Implements provider-specific configuration for flexibility
+2. Rate Limit Compliance
+   - Respects configured rate limits for each provider(Rate limits are part of arguments as part of demonstration)
+   - Implements tracking mechanisms to prevent exceeding limits
+3. Proper Monitoring
+   - Provides detailed statistics on provider performance
+   - Tracks key metrics including success rates, error rates, and response times
+   - Visualizes performance data for easy interpretation
+
 
