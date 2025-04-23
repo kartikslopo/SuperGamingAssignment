@@ -85,7 +85,6 @@ namespace IpBroker.Services
                     await Task.Delay(provider.ArtificialDelayMs);
                 }
 
-                // Simulate errors if configured
                 if (provider.ShouldSimulateError())
                 {
                     throw new Exception($"Simulated error from {provider.ProviderName}");
