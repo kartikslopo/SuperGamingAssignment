@@ -25,7 +25,6 @@ namespace IpBroker.Services
             int requestNumber = System.Threading.Interlocked.Increment(ref _requestCounter);
             ProviderStats provider = null;
 
-            // Provider selection logic with detailed logging
             var selectionLog = new StringBuilder();
             selectionLog.AppendLine($"\n=== REQUEST #{requestNumber} | IP: {ipAddress} ===");
             selectionLog.AppendLine("Selecting provider...");
@@ -38,7 +37,7 @@ namespace IpBroker.Services
                 foreach (var p in availableProviders)
                 {
                     var avgTimeFormatted = $"{p.GetAvgResponseTimeLast5Min():F2}";
-                    var errorRateFormatted = $"{p.GetErrorRateLastMinute():P2}"; // <- P2 for percentage with 2 decimal places
+                    var errorRateFormatted = $"{p.GetErrorRateLastMinute():P2}"; 
 
                     selectionLog.AppendLine($"- {p.ProviderName}: " +
                                             $"ErrorCount={p.GetErrorCountLast5Min()}, " +
@@ -91,9 +90,6 @@ namespace IpBroker.Services
                 {
                     throw new Exception($"Simulated error from {provider.ProviderName}");
                 }
-
-                // In a real scenario, we'd make an actual API call here
-                // For simulation purposes, we'll create a mock successful response
                 var json = $"{{ \"provider\": \"{provider.ProviderName}\", \"ip\": \"{ipAddress}\", " +
                           $"\"location\": \"Simulated Location\", \"country\": \"Simulation\" }}";
 
