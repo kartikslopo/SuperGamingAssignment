@@ -1,0 +1,14 @@
+C:\TFS\IPBrokerService\IPBrokerService\bin\Debug\net6.0\IPBrokerService.exe
+C:\TFS\IPBrokerService\IPBrokerService\bin\Debug\net6.0\IPBrokerService.deps.json
+C:\TFS\IPBrokerService\IPBrokerService\bin\Debug\net6.0\IPBrokerService.runtimeconfig.json
+C:\TFS\IPBrokerService\IPBrokerService\bin\Debug\net6.0\IPBrokerService.dll
+C:\TFS\IPBrokerService\IPBrokerService\bin\Debug\net6.0\IPBrokerService.pdb
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.AssemblyInfoInputs.cache
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.AssemblyInfo.cs
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.csproj.CoreCompileInputs.cache
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.dll
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\refint\IPBrokerService.dll
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.pdb
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\IPBrokerService.genruntimeconfig.cache
+C:\TFS\IPBrokerService\IPBrokerService\obj\Debug\net6.0\ref\IPBrokerService.dll
